@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Gtoon Game</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="/style.css" media="screen" title="no title" charset="utf-8">
+
+<body>
+  <ul class="pages">
+    <li class="welcome page">
+      <div class="form">
+        <h3 class="title">What's your name?</h3>
+        <input type="text" class="usernameInput">
+      </div>
+    </li>
+    <li class="waiting page">
+      <div class="form">
+        <h3 class="title">Waiting on opponent</h3>
+      </div>
+    </li>
+    <li class="list-decks page container"></li>
+    <li class="game page container">
+      <div class="board">
+        <div id="opp-board-area" class="container"></div>
+        <div id="my-board-area" class="container"></div>
+      </div>
+      <div class="stat-display">
+      </div>
+      <div id="deck-display" class="container"></div>
+    </li>
+  </ul>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="/js/playerSocket.js"></script>
+
+</html>

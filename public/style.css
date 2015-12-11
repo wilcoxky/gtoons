@@ -1,0 +1,169 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.welcome.page, .waiting.page {
+  background-color: #000;
+}
+
+.welcome.page .form, .waiting.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.welcome.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.welcome.page .title, .waiting.page .title {
+  font-size: 200%;
+}
+
+.welcome.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.welcome.page .title, .welcome.page .usernameInput, .waiting.page .title {
+  color: #fff;
+  font-weight: 100;
+}
+
+.waiting.page {
+  display: none;
+}
+/* List Decks Page*/
+
+.list-decks.page {
+  display: none;
+}
+
+#deck-picked {
+  font-weight: 600;
+  color: #2A99D6;
+}
+
+#join-game {
+  margin-bottom: 40px;
+  width: 70px;
+  height: 70px;
+}
+
+/* Chat page */
+
+.game.page {
+  display: none;
+}
+
+.gtoonPoints {
+  font-weight: bolder;
+}
+
+.gtoonName {
+  font-weight: 300;
+}
+
+.gtoonRed {
+  background: #EC4A41;
+}
+
+.gtoonBlue {
+  background: #2A99D6;
+}
+
+.gtoonGreen {
+  background: #00CC7B
+}
+
+.gtoonSilver {
+  background: #94A5A6;
+}
+
+.gtoonOrange {
+  background: #EA7D37;
+}
+
+.gtoonBlack {
+  background: #2B2B2B;
+  color: white;
+}
+
+.gtoonPurple {
+  background: #775FBF;
+}
+
+.gtoonYellow {
+  background: #DEB13A;
+}
+
+.selected {
+  border-color: #FEA637;
+  border-width: medium;
+}
+
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: 500px;
+  width: auto;
+  background: #99ACD2;
+  border-radius: 25px;
+}

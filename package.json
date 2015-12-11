@@ -1,0 +1,17 @@
+{
+  "name": "gtoons",
+  "version": "1.0.0",
+  "description": "Gtoon game based off of old Cartoon Network Game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Wilcox",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.10.2"
+  },
+  "dependencies": {
+    "socket.io": "^1.3.7"
+  }
+}
